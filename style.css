@@ -37,7 +37,7 @@
 }
 .BUsiness{
     font-size:20px ;
-   text-align: left;
+    text-align: left;
 }
 
 .button {
@@ -55,7 +55,6 @@
     border-radius: 35px;
 
 }
-
 .button:hover {
     background-color: black; 
     color: white;
@@ -64,22 +63,34 @@
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 10px;
 }
-.images img {
-    margin: 10px;
-    width: 400px;
-    height: 400px;
+.images div {
+    display: flex;
+    gap: 10px;
+}
+.img {
+    width: 360px;
+    height: 370px;
+
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+}
+.img:hover {
+    /* transform: scale(1.1);  */
+    /* box-shadow: 0 4px 8px gray(0, 0, 0, 0.2); */
+   opacity:0.8;
+   transition:0.3s ;
+   overflow: hidden;
+   /* transform: scale(1.1); */
+   /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+
+.img:hover::after{
+    opacity: 2;
+    transform: scale(1.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.images img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-
-
-
 
 .contact{
     font-size:15px;
@@ -95,6 +106,7 @@
     background-color: #ffffff !important;
     box-sizing: 15px;
 }
+
 
 
  p {
@@ -199,22 +211,19 @@ p{
 .text1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Space between the images */
+    gap: 15px; 
     justify-content: center;
 }
 .text1 img {
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 370px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .text1 img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.p1 {
-    color: blue;
-    
-} 
+ 
 .paraa {
     background-color: black;
 }
@@ -229,6 +238,7 @@ p{
     font-size: 40px;
     color: aqua;
 }
+
 .mail {
     font-size:15px ;
     color:white ;
@@ -251,10 +261,6 @@ p{
 .icons1{
     color: skyblue;
     font-size:36px ;
-    
-}
-.img8{
-  margin-top: 25px;
 }
 .Walnut{
     font-size: 20px;
@@ -295,6 +301,40 @@ p{
 }
 
 
-.why{
-   color: white; 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
