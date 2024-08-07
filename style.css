@@ -30,8 +30,8 @@
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 1.1;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     
     
     font-family: Montserrat, sans-serif;
@@ -193,7 +193,7 @@
 
 .what_people {
     font-size: 40px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin-bottom: 30px;
     color: white; /* Adjust color as needed */
@@ -201,7 +201,7 @@
     margin-left: 60px;
     margin-bottom:25px ;
     padding-top:75px ;
-    padding-left:50px ;
+    padding-left:60px ;
     
 
 }
@@ -213,47 +213,46 @@
 #container
 {
     
-    background-color: black;
+    background-color: rgb(51,51,51);
 }
 
 .params{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-}
-.why{
-    font-size:30px ;
-    text-decoration: none;
-    
+    min-height: 300px;
 }
  .stella{
-    height: 370px;
+    height: 350px;
     width: 335px;
     background-color:white ;
     margin: 60px;
-    text-align: center;
+    text-align: left;
     font-size:20px ;
-    padding:25px ;
+    padding:10px ;
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .nick{
-    height: 370px;
+    height: 350px;
     width: 335px;
     background-color:white ;
     margin: 60px;
-    text-align: center;
+    text-align: left;
     font-size:20px ;
-    padding:25px ;
+    padding:10px ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .olga{
-    height: 370px;
+    height: 350px;
     width: 335px;
     background-color:white ;
     margin: 60px;
-    text-align: center;
+    text-align: left;
     font-size:20px ;
-    padding:25px ;
+    padding:10px ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .outlet{
     font-size: 20px;
@@ -262,26 +261,29 @@
 
 .Monday{
     font-size: 15px;
-    color: blue;
+    color: gray;
     padding:10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .may{
     font-size: 15px;
-    color: blue;
+    color: gray;
     padding:10px ;
 }
 .mon{
     font-size: 15px;
-    color: blue;
+    color: gray;
     padding:30px ; 
 }
 .freepik{
-    text-align: center;
-    
+    text-align: center;   
 }
 h1 {
     font-size:17px;
-    color:lightblue ;
+    color: rgb(168,220,255);
+    font-weight: 50;
+    letter-spacing: 2px;
+    text-align: left;
 }
 p{
     font-size:20px;
@@ -291,25 +293,20 @@ p{
     text-align: center;
     font-size:40px ;
 }
-
- 
 .paraa {
-    background-color: black;
+    background-color: rgb(51,51,51);
 }
-
-
 .since{
     color: white;
     font-size:30px;
     padding-left:50px ;
-    
+    margin-top: 25px;  
 }
 .icons
 {
     font-size: 40px;
     color: aqua;
 }
-
 .mail {
     font-size:15px ;
     color:white ;
@@ -318,14 +315,12 @@ p{
     font-size: 20px;
     margin-right: 10px;
 }
-
 .us{
     font-size:20px ;
     color: white;
     margin-left: auto;
     text-align: center;
 }
-
 #Since2002{
     display: flex;
     justify-content: space-around;
@@ -337,27 +332,29 @@ p{
 .Walnut{
     font-size: 20px;
 }
-.tem{
-    /* text-align: center; */
-    margin-top:15px;
-    font-size:15px;
-    margin-left:20px;
-}
-
-.template{
+.the{
     text-align: center;
+    /* margin-top: -150px;
+    font-size: 15px; */
+}
+.template{
+    text-align: left;
     font-size:15px;
     margin-top:80px;
     /* margin-right:20px; */
     margin-left: -90 !important;
-    padding: auto;
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
-
+.tem{
+     /* text-align: center; */
+     margin-top:15px;
+     font-size:15px;
+     margin-left:20px; 
+    display: inline-block;  
+}
 .tem:hover span{
     cursor: pointer;
     color: gray;
@@ -367,6 +364,7 @@ p{
 }
 .create{
     display: inline-block;
+    font-size: 15px; 
 }
 .buil{
     display: inline-block;
@@ -379,8 +377,7 @@ p{
     text-decoration: none;
 }
 .hor1{
-    width: 600px;
-    
+    width: 600px;   
 }
 .blue{
     padding-right:300px ;
@@ -388,6 +385,8 @@ p{
 .head{
     font-size:15px ;
     margin-top: 30px;
+    padding-right:30px;
+
 }
 
 
