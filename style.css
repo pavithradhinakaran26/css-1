@@ -293,107 +293,45 @@ p{
     text-align: center;
     font-size:40px ;
 }
-.paraa {
-    background-color: rgb(51,51,51);
+.div{
+    background-color:rgb(51,51,51) ;
+    
 }
-.since{
+.para1{
     color: white;
-    font-size:30px;
-    padding-left:50px ;
-    margin-top: 25px;  
+    font-size:40px ;
+    padding-left:100px ;
+    padding-top: 40px;
+    display: flex;
 }
-.icons
-{
-    font-size: 40px;
-    color: aqua;
-}
-.mail {
-    font-size:15px ;
-    color:white ;
+.icons{
+   
+    padding-left:100px ;
 }
 .sample{
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 15px;
+    padding-left:100px ;
+}
+.info{
+    font-size:20px ;
+    text-align: left;
+   padding-left:100px ;
+}
+.hor{
+    padding-bottom:20px ;
+    width:600px ;
+    padding-left:100px ;
 }
 .us{
-    font-size:20px ;
-    color: white;
-    margin-left: auto;
     text-align: center;
-}
-#Since2002{
-    display: flex;
-    justify-content: space-around;
-}
-.icons1{
-    color: skyblue;
-    font-size:36px ;
-}
-.Walnut{
-    font-size: 20px;
-}
-.the{
-    text-align: center;
-    /* margin-top: -150px;
-    font-size: 15px; */
-}
-.template{
-    text-align: left;
-    font-size:15px;
-    margin-top:80px;
-    /* margin-right:20px; */
-    margin-left: -90 !important;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;    
-}
-.tem{
-     /* text-align: center; */
-     margin-top:15px;
-     font-size:15px;
-     margin-left:20px; 
-    display: inline-block;  
-}
-.tem:hover span{
-    cursor: pointer;
-    color: gray;
-}
-.tem:hover, .tem.line:focus{
-    text-decoration:none ;
-}
-.create{
-    display: inline-block;
-    font-size: 15px; 
-}
-.buil{
-    display: inline-block;
-}
-.bulit:hover span{
-    cursor: pointer;
-    color: gray;
-}
-.buli:hover, .buil.line:focus{
-    text-decoration: none;
-}
-.hor1{
-    width: 600px;   
-}
-.blue{
-    padding-right:300px ;
-}
-.head{
-    font-size:15px ;
-    margin-top: 30px;
+    padding-left:100px ;
+    padding-left:60px ;
     
-
 }
-.click{
-   font-size:15px ;
-   padding-top: 40px;
-   padding-right:90px ;
-   
-} 
+
+
+
+
 
 
 
