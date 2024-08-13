@@ -3,23 +3,25 @@
     margin: 0;
 }
 .icon{
-    padding-left: 7%;
+    padding-left: 140px;
     font-size: 28px;
     margin-top: 30px;
+    
+    
+    
 }
 .icon:hover{
     color: orangered;
+   
 }
-.projects {
+.project {
     background-color: skyblue;
     color: white;
     /* text-align: center; */
-    padding-left: 100px;
+    padding-left: 150px;
     font-size:40px;
     margin-top: 20px;
     height: 50%;
-
-    
 }
 
 .pro{
@@ -32,7 +34,7 @@
     line-height: 1.1;
     /* margin-top: 20px;
     margin-bottom: 20px; */
-    
+    font-family:'Open Sans', sans-serif; ;
     
     font-family: Montserrat, sans-serif;
 
@@ -41,6 +43,8 @@
     font-size:20px ;
     text-align: left;
     letter-spacing:1px ;
+    font-family:'Open Sans', sans-serif;
+    
 }
 
 .button {
@@ -63,28 +67,6 @@
     color: white;
     border-radius: 30px;
 }
-
-
-
-
-
-
-
-.contact{
-    font-size:15px;
-    text-transform: uppercase;
-    align-self: center;
-    background-color: none;
-    font-weight: 700;
-    letter-spacing:1px;
-    font-size:1.125rem;
-    margin: 52px auto 60px 0;
-    padding:20px 46px 20px 44px ;
-    color: #111111 !important;
-    background-color: #ffffff !important;
-    box-sizing: 15px;
-    
-}
 .main{
     text-align: center;
     width: 80%;
@@ -95,14 +77,13 @@
 .parent{
     transition: transform 0.3s ease-in-out;
     width: 32%;
-    height: 400px;
+    height: 370px;
     overflow: hidden;
     position: relative;
-    box-shadow:0 5px 8px -1px rgba(0, 0, 0, 0.5) ;
+    background-color: black;
+    /* box-shadow:0 5px 8px -1px rgba(0, 0, 0, 0.5) ; */
     display: inline-block;
     margin: 6px;
-    
-
 }
 .parent :hover {
     transform: scale(1.2);
@@ -151,7 +132,7 @@
 }
 .parent:hover .child{
     transform:scale(1.2) ;
-    
+   
     opacity:0.5 ;
     position: absolute;
 }
@@ -181,28 +162,24 @@
  p {
     /* text-align: center; */
     font-size: 40px;
-    text-align: center;
+    /* text-align: center; */
 
  }
- .testimonial-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
+ 
 
 .what_people {
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Montserrat, sans-serif; ;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: white; /* Adjust color as needed */
     margin-top:30px ;
     margin-left: 60px;
     margin-bottom:25px ;
     padding-top:75px ;
-    padding-left:60px ;
-    
+    padding-left:100px ;
+    padding-right:60px ;
+      
 
 }
 .par{
@@ -214,6 +191,10 @@
 {
     
     background-color: rgb(51,51,51);
+    padding-right:100px ;
+    margin-bottom:60px ;
+    margin-top:40px ;
+
 }
 
 .params{
@@ -221,42 +202,47 @@
     justify-content: center;
     align-items: center;
     min-height: 300px;
+    padding-left: 30px;
 }
  .stella{
-    height: 350px;
-    width: 335px;
+    height: 330px;
+    width: 340px;
     background-color:white ;
-    margin: 60px;
+    
     text-align: left;
     font-size:20px ;
     padding:10px ;
     margin-left: 6%;
-    font-family: Arial, Helvetica, sans-serif;
     
+    padding-left:20px ;         
+   
 }
 .nick{
-    height: 350px;
+    height: 330px;
     width: 335px;
     background-color:white ;
-    margin: 60px;
+    margin: 50px;
     text-align: left;
     font-size:20px ;
     padding:10px ;
-    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-left:20px ;
+    margin-right:4% ;
 }
 .olga{
-    height: 350px;
+    height: 330px;
     width: 335px;
     background-color:white ;
-    margin: 60px;
+    margin: 0px;
     text-align: left;
     font-size:20px ;
     padding:10px ;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-right:10px ;
 }
 .outlet{
     font-size: 20px;
     text-align: center;
+    font-weight: 400;
 }
 
 .Monday{
@@ -264,16 +250,23 @@
     color: gray;
     padding:10px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right:180px ;
+    
 }
 .may{
     font-size: 15px;
     color: gray;
     padding:10px ;
+    padding-right:186px ;
+    
 }
 .mon{
     font-size: 15px;
     color: gray;
-    padding:30px ; 
+    padding:30px ;
+    text-align: left;
+    padding-right:160px ;
+    padding-left:10px ;
 }
 .freepik{
     text-align: center;   
@@ -291,44 +284,186 @@ p{
 }
 .our-project {
     text-align: center;
-    font-size:40px ;
+    font-size:35px ;
+    font-family: Montserrat, sans-serif;
+    
+ 
+   
 }
-.div{
+#center{
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns:  600px 400px 400px;
+    padding: 100px;
+    margin-top: 30px;
+    overflow-x: hidden;
+}
+.paraa{
+    font-family: "Montserrat", sans-serif;
+    font-size:2.10rem;
+    font-weight:20px;
+    display: table;
+    padding-left: 7rem;
+    line-height: 1.1;
     background-color:rgb(51,51,51) ;
+}
+.info{
+    text-transform: uppercase;
+    margin-top: 4px; 
+    font-size: 1.160rem;
+    font-weight: bold;
+ }
+ .hr{
+     margin-top: 13px;
+ }
+ .no8{
+    font-size: 35px;
+    width: 800rem;
+ }
+ .im{
+    margin-top: 25px;
+ }
+.text2{
+    margin-top: 5rem;
+    font-size:large;
+    line-height: 15px;
+    padding-right: 140px;
+}
+.para{
+    font-size:1.25rem;
+    text-align:left;
+    display: table;
+    height: 100px;
+    word-spacing: 3px;
+    line-height: 30px;
+    padding-left:3em;
+    scroll-margin-top: 200px ;
+   
+}
+
+.element{
+    margin-top: 130px;
+    width: 16rem;
+    margin-right: 10px;
+    word-wrap: 0px;
+    padding-top:40px ;
+    padding-left:60px ;
+}
+.tel{
+    font-size: 25px;
+}
+.soci{
+    font-size:20px ;
+    padding-right:370px ;
+    padding-top:150px ;
+    padding-left:10px ;
+}
+.sam{
+    padding-right:300px ;
+}
+.parac{
+    display:flex;
+    flex-direction: column; 
+    row-gap:1.1rem;
+    text-align:left;
+}
+.id{
+    font-family: 'montserrat',sans-serif;
+    margin:auto;
+    width: 500px;
+    position: relative;
+    font-size: 9px;
+    top: -80px;
+    padding-right: 1.1rem ;
+    padding-left:60px ;
+}
+.id{
+    text-align:left;
+    position: relative;
+    font-size: inherit;
+    top: -140px;
+    padding-left: 40px;
     
 }
 .para1{
-    color: white;
-    font-size:40px ;
-    padding-left:100px ;
-    padding-top: 40px;
+    padding-right: 15rem ;
     display: flex;
-}
-.icons{
-   
-    padding-left:100px ;
-}
-.sample{
-    font-size: 15px;
-    padding-left:100px ;
-}
-.info{
-    font-size:20px ;
-    text-align: left;
-   padding-left:100px ;
-}
-.hor{
-    padding-bottom:20px ;
-    width:600px ;
-    padding-left:100px ;
-}
-.us{
-    text-align: center;
-    padding-left:100px ;
-    padding-left:60px ;
-    
+    margin-bottom: 1rem;
+    margin: 0 auto 0;
+    padding-top: 15px;
+    padding-left:40px ;
 }
 
+footer{
+  display: flex;
+  font-size: smaller;
+  justify-content: center;
+  font-family: Arial,georgia, sans-serif;
+  padding-bottom: 30px;
+  
+}
+.last{
+  display: flex;
+  font-size:15px;
+  justify-content: center;
+  padding-bottom: 5rem;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.last-div{
+    color: rgb(255,255,255);
+    background-color: rgb(51,51,51);
+    background-image: none;
+    position: relative;
+    font-display:block;
+    padding-right: 30px;
+    padding:30px ;
+}
+.click{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 15px;
+}
+
+.template{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+.tem{
+    display: inline-block;
+}
+
+.tem:hover span{
+    cursor: pointer;
+    color: gray;
+}
+
+.tem:hover, .tem.line:focus{
+    text-decoration: none;
+}
+
+.creat{
+    display: inline-block;
+    padding-bottom:30px ;
+}
+
+.builder{
+    display: inline-block;
+}
+
+.buil:hover span{
+    cursor: pointer;
+    color: gray;
+}
+
+.buil:hover, .buil.line:focus{
+    text-decoration: none;
+   
+}
 
 
 
